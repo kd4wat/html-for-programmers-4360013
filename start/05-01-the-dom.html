@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 
 <head>
@@ -20,7 +20,13 @@
   </header>
   
   <script>
-    
+    const header=document.querySelector('#header');
+    const nav=header.childNodes[1];
+    const list=nav.childNodes[1];
+    const firstListItem = list.childNodes[1];
+    console.log(firstListItem.childNodes);
+
+
   </script>
 </body>
 
